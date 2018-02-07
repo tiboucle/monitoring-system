@@ -1,0 +1,64 @@
+/*
+   Find more details on JavaFX supported named colors at
+   http://docs.oracle.com/javafx/2/api/javafx/scene/doc-files/cssref.html#typecolor
+*/
+
+/* pie chart */
+
+/* Pie Chart legend background color and stroke. */
+/* .chart-legend { -fx-background-color: sienna; } */
+
+/* Colors of JavaFX pie chart slices. */
+/*.data0.chart-pie { -fx-pie-color: turquoise ; }
+.data1.chart-pie { -fx-pie-color: steelblue  ; }
+.data2.chart-pie { -fx-pie-color: cyan  ; }
+.data3.chart-pie { -fx-pie-color: royalblue  ; }
+.data4.chart-pie { -fx-pie-color: dodgerblue  ; }
+.data5.chart-pie { -fx-pie-color: lawngreen  ; }
+*/
+.data0.chart-pie { -fx-pie-color: turquoise; }
+.data1.chart-pie { -fx-pie-color: steelblue; }
+.data2.chart-pie { -fx-pie-color: cyan; }
+.data3.chart-pie { -fx-pie-color: royalblue; }
+.data4.chart-pie { -fx-pie-color: dodgerblue; }
+.data5.chart-pie { -fx-pie-color: aquamarine; }
+.data6.chart-pie { -fx-pie-color: cornflowerblue; }
+.data7.chart-pie { -fx-pie-color: blue; }
+.data8.chart-pie { -fx-pie-color: cadetblue; }
+.data9.chart-pie { -fx-pie-color: navy; }
+.data10.chart-pie { -fx-pie-color: deepskyblue; }
+.data11.chart-pie { -fx-pie-color: teal; }
+
+
+.chart-title {
+  -fx-font-size: 0.8em;
+  -fx-text-alignment: center;
+}
+
+.axis {
+    -fx-font-size: 0.8em;
+}
+
+.chart-legend-item{
+  -fx-font-size: 0.8em;
+  -fx-text-alignment: center;
+}
+
+.chart-legend-item-symbol{
+   -fx-background-size: 0.1em;
+}
+
+.chart-plot-background {
+    -fx-background-color: #dfdfdf;
+}
+.chart-vertical-grid-lines {
+    -fx-stroke: #c6c6c6;
+}
+.chart-horizontal-grid-lines {
+    -fx-stroke: #dfdfdf;
+}
+.chart-alternative-row-fill {
+    -fx-fill: #eaeaea;
+    -fx-stroke: transparent;
+    -fx-stroke-width: 0;
+}

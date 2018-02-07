@@ -1,0 +1,12 @@
+# Influx Server
+server: 192.168.10.176
+port: 8086
+
+# Telegraf Agents
+agents:
+   - ip: 192.168.10.176
+     hostname: "wpo1"
+#   - ip: 192.168.10.23
+#     hostname: "wpo2"
+#   - ip: 192.168.10.24
+#     hostname: "wpt"
